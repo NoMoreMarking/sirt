@@ -14,3 +14,5 @@ Sample decision data for running the code is available in the Data folder and is
 ## The code
 Download both sirt_code.R and sirt_functions.R from the R folder. Keep them in the same folder on your computer as the decision data.
 
+## Example output
+The output from the code using the sample decision data is shown in the Output folder.
