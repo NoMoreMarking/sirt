@@ -13,6 +13,11 @@
 # ggpubr useful for normality checks
 # and we need the sirt functions
 #############################################################################
+  install.packages("sirt")
+  install.packages("dplyr")
+  install.packages("cocor")
+  install.packages("ggpubr")
+
   library(sirt)
   require(dplyr)
   require(cocor)
