@@ -46,7 +46,8 @@
 # fit to BT model and get scale values and SSR and interrater reliability
 #############################################################################
   mod1 <- btm_with_judges(decisions)
-  SSR <- mod1$mle.rel 
+  SG <- mod1$sepG 
+  SSR <- SG^2 / (1+SG^2)
   interrater <- interrater_rel(decisions)
 
   # calculate misfit
